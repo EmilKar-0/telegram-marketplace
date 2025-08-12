@@ -1,0 +1,37 @@
+//linear-gradient(to top, #050505, #302f2f)
+.content {
+  width: 75%;
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.filters {
+  display: flex;
+  gap: 15px;
+}
+
+.openModal {
+  padding: 20px;
+  border: none;
+  box-shadow: none;
+  > span {
+    position: relative;
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  &::before {
+    content: '';
+    background: #201f1f;
+    position: absolute;
+    inset: -1px;
+    opacity: 1;
+    transition: all 0.2s ease;
+    border-radius: inherit;
+  }
+  &:hover::before {
+    background: #121111;
+  }
+}

@@ -1,0 +1,33 @@
+.header {
+   color: rgb(145, 143, 143);
+   height: 46px;
+   background: linear-gradient(to bottom, #050505, #302f2f);
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px;
+}
+.logo {
+   color: rgb(255, 255, 255);
+   cursor: pointer;
+}
+.navigation {
+   .list {
+      display: flex;
+      gap: 20px;
+      .item {
+         font-size: 18px;
+         font-weight: 600;
+         cursor: pointer;
+      }
+      .active {
+         color: white;
+      }
+   }
+}
+.tgBtn {
+   border: none;
+   background: none;
+   position: relative;
+}
+
