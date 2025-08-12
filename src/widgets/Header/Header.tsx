@@ -62,6 +62,7 @@ const Header: React.FC = () => {
     <header className={styles.header}>
       <Link to="/">
         <h1 className={styles.logo}>FragmenTITI</h1>
+        <p>REMOTE CHANGE</p>
       </Link>
       {error !== null && <Alert message={error} type="error" closable />}
       <div>
